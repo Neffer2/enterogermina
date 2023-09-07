@@ -1,0 +1,141 @@
+@font-face {
+    font-family: dinot;
+    src: url(../assets/fonts/DINOT-Bold.ttf);
+}
+
+@font-face { 
+    font-family: grota;
+    src: url(../assets/fonts/GrotaRoundedBlack.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: dinot !important;
+}
+
+html {
+    font-size: 22px;
+    height: 100% !important; 
+}
+
+body { 
+    padding: 0 5rem; 
+    height: 100%;
+    background-color: black;
+}
+
+.btn {
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    width: 275px;
+    height: 90px;
+}
+
+.frame {
+    height: 100%;
+    background-image: url(../assets/img/preguntas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.preguntas-container {
+    height: 38%;
+    padding: 0 5rem;
+}
+
+.preguntas-container {
+    padding: 0 5rem;
+}
+
+.pista-container {
+    padding: 0 5rem;
+}
+
+.pregunta {
+    font-family: dinot !important;
+    font-size: 40px !important;
+    padding: .8rem 0;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #1b3193;
+    text-align: center;
+    border: 5px solid #1b3193;
+}
+
+.pista {
+    font-family: dinot !important;
+    font-size: 20px !important;
+    padding: .8rem 0;
+    background-color: #1b3193;
+    color: #fff;
+    text-align: center;
+    margin-bottom: .5rem;
+    border-radius: 0 0 35px 35px;
+}
+
+.opcion {
+    border: 5px solid transparent;
+    padding: .3rem 0;
+    border-radius: 30px;
+    background-color: #2f5aa0;
+    color: #fff;
+    text-align: center;
+    margin: .8rem .5rem;
+    cursor: pointer;
+}
+
+.opcion:hover {
+    border: 5px solid #1b3193;
+}
+
+.score-frame {
+    height: 60px;
+    position: absolute;
+    bottom: 4%;
+    right: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.puntos-container {
+    font-family: dinot !important;
+    border: 10px solid #1b3193;
+    border-radius: 30px;
+    padding: 0 1.5rem;
+    color: #71be36;
+    background-color: #fff;
+}
+
+.time-container {
+    height: 84px;
+    width: 50px; 
+    border: 10px solid #1b3193;
+    border-radius: 400px;
+    padding: 0 1.5rem;
+    color: #1b3193;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.puntos-container span{
+    font-family: dinot !important;
+    color: #71be36;
+    background-color: #fff;
+}
+
