@@ -1,0 +1,20 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlCompiler>
+  <App>
+    <ID>{8E39F1E3-2A18-46A1-8A99-ACE91E1894EB}</ID>
+    <Name>Enterogermina</Name>
+    <IndexHtml>index.html</IndexHtml>
+    <CompanyName>Iglumarketingdigital</CompanyName>
+    <FileDescription>Enterogermina</FileDescription>
+    <LegalTrademarks>Enterogermina</LegalTrademarks>
+    <OriginalFileName>Enterogermina</OriginalFileName>
+    <WindowStyle>1</WindowStyle>
+    <Generator>
+      <Name>DecSoft HTML Compiler</Name>
+      <Website>https://www.decsoftutils.com/</Website>
+      <Orders>https://www.decsoftutils.com/store/</Orders>
+      <EMail>info@decsoftutils.com</EMail>
+      <Copyright>©2023 DecSoft HTML Compiler. All rights reserved.</Copyright>
+    </Generator>
+  </App>
+</HtmlCompiler>
